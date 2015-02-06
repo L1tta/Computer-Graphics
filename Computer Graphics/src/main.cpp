@@ -11,8 +11,9 @@ int main()
 		while (App->Update() == true)
 		{
 			App->Draw();
-			App->Shutdown();
 		}
+
+		App->Shutdown();
 	}
 	delete App;
 	return 0;
